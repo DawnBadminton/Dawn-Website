@@ -1,0 +1,108 @@
+body {
+    font-family: 'Manrope', sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  
+  .container {
+    width: 90%;
+    max-width: 1100px;
+    margin: auto;
+    overflow: hidden;
+  }
+  
+  .header {
+    background: #333;
+    color: #fff;
+    padding: 1rem 0;
+  }
+  
+  .header .logo img {
+    width: 120px;
+  }
+  
+  .header .navbar ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .header .navbar ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  .header .navbar ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 700;
+  }
+  
+  .header .navbar ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  .policy {
+    padding: 2rem 0;
+    background: #fff;
+    margin-top: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .policy h1,
+  .policy h2 {
+    color: #333;
+  }
+  
+  .policy h1 {
+    margin-bottom: 10px;
+  }
+  
+  .policy h2 {
+    margin-top: 20px;
+  }
+  
+  .policy p {
+    margin: 10px 0;
+  }
+  
+  .policy a {
+    color: #007BFF;
+    text-decoration: none;
+  }
+  
+  .policy a:hover {
+    text-decoration: underline;
+  }
+  
+  .footer {
+    background: rgb(102, 170, 93);
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 20px;
+  }
+  
+  .footer-nav ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  .footer-nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 700;
+  }
+  
+  .footer-nav ul li a:hover {
+    text-decoration: underline;
+  }
+  
