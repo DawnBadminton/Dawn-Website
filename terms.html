@@ -3,177 +3,357 @@
 
 <head>
   <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Terms of Use - Dawn Badminton Club</title>
-  <link rel="stylesheet" href="policy.css">
-  <link rel="stylesheet" href="style.css">
+
+  <!-- 
+    - primary meta tags
+  -->
+  <title>Dawn Badminton Club | Terms of Use</title>
+<meta name="title" content="Dawn Badminton Club | Erumely, Kerala - Join Us for the Best Badminton Experience/Terms of Use">
+<meta name="description" content="Join Dawn Badminton Club in Erumely, Kerala, India for an exceptional badminton experience. Offering 24/7 court availability, private lessons, and more.">
+
+
   <!-- 
     - favicon
   -->
   <link rel="icon" type="image/png" href="./assets/images/dawn-logo.png">
-
+  <link rel="icon" href="./assets/images/dawn-logo.ico" type="image/x-icon">
   
-  <style>
-    /* Global Styles */
-    body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      padding: 0;
-    }
 
-    .container {
-      width: 90%;
-      max-width: 1200px;
-      margin: 0 auto;
-    }
 
-    /* Header Styles */
-    .header {
-      background-color: #346d44; /* Dark green background */
-      color: #fff; /* White text */
-      padding: 15px 0;
-    }
 
-    .header .logo {
-      display: inline-block;
-      margin-right: 20px;
-    }
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap" rel="stylesheet">
 
-    .header .logo img {
-      width: 120px;
-      height: auto;
-      vertical-align: middle;
-    }
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="assets/css/style.css">
 
-    .navbar-list {
-      list-style-type: none;
-      padding: 0;
-      margin: 0;
-      display: inline-block;
-    }
+  <!-- 
+    - preload images
+  -->
+  <link rel="preload" as="image" href="./assets/images/hero-bg.jpg">
+  <link rel="preload" as="image" href="./assets/images/hero-bg1.jpg">
+  <link rel="preload" as="image" href="./assets/images/hero-slide-1.jpg">
+  <link rel="preload" as="image" href="./assets/images/hero-slide-2.jpg">
+  <link rel="preload" as="image" href="./assets/images/hero-slide-3.jpg">
 
-    .navbar-list li {
-      display: inline;
-      margin-right: 20px;
-    }
 
-    .navbar-list li a {
-      color: #fff;
-      text-decoration: none;
-    }
 
-    /* Footer Styles */
-    .footer {
-      background-color: hsla(218, 22%, 26%, 1); /* Dark green background */
-      color: #fff; /* White text */
-      padding: 30px 0;
-      text-align: center;
-    }
-
-    .footer .logo img {
-      width: 100px;
-      height: auto;
-      margin-bottom: 20px;
-    }
-
-    .footer-list {
-      list-style-type: none;
-      padding: 0;
-      margin: 0;
-      display: inline-block;
-      vertical-align: top;
-      margin-right: 40px;
-    }
-
-    .footer-list li {
-      margin-bottom: 10px;
-    }
-
-    .footer-list li a {
-      color: #fff;
-      text-decoration: none;
-    }
-
-    .footer-list-title {
-      font-weight: bold;
-      margin-bottom: 10px;
-    }
-  </style>
 </head>
 
 <body>
-  <!-- Header -->
-  <header class="header">
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
     <div class="container">
+
       <a href="index.html" class="logo">
-        <img src="./assets/images/dawn-logo1.png" alt="Dawn Badminton Club">
+        <img src="./assets/images/dawn-logo1.png" width="120" height="30"  class="logo-light">
+
+        <img src="./assets/images/dawn-logo1.png" width="120" height="30"  class="logo-dark">
       </a>
-      <ul class="navbar-list">
-        <li><a href="index.html" class="navbar-link">Home</a></li>
-        <li><a href="index.html" class="navbar-link">About</a></li>
-        <li><a href="index.html" class="navbar-link">Services</a></li>
-        <li><a href="index.html" class="navbar-link">News</a></li>
-        <li><a href="contact.html" class="navbar-link">Contact</a></li>
-      </ul>
+
+      <nav class="navbar" data-navbar>
+
+        <div class="navbar-top">
+          <a href="index.html" class="logo">
+            <img src="./assets/images/dawn-logo.png" width="50" height="20" alt="Dawn Logo">
+          </a>
+
+          <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
+            <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+          </button>
+        </div>
+
+        <ul class="navbar-list">
+
+          <li>
+            <a href="#" class="navbar-link">Home</a>
+          </li>
+
+          <li>
+            <a href="#about" class="navbar-link">About</a>
+          </li>
+
+          <li>
+            <a href="#service" class="navbar-link">Services</a>
+          </li>
+
+          <li>
+            <a href="#news" class="navbar-link">News</a>
+          </li>
+
+          <li>
+            <a href="contact.html" class="navbar-link">Contact</a>
+          </li>
+
+        </ul>
+
+        <div class="wrapper">
+          <a href="mailto:info@email.com" class="contact-link">dawnerumely@gmail.com
+          </a>
+
+          <a href="tel:001234567890" class="contact-link">+91 9447457017</a>
+        </div>
+
+        <ul class="social-list">
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+
+        </ul>
+
+      </nav>
+
+      <a href="contact.html" class="btn btn-primary">Become a member</a>
+
+      <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+        <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+      </button>
+
+      <div class="overlay" data-nav-toggler data-overlay></div>
+
     </div>
   </header>
 
 
   <main>
     <section class="policy">
-      <div class="container">
-        <h1>Terms of Use</h1>
-        <p>Last updated: 10-06-2024 </p>
+        <div class="container">
+            <h1 class="terms-of-use">Terms of Use and Privacy Policy</h1>
+            <br>
 
-        <h2>Acceptance of Terms</h2>
-        <p>By accessing or using our services, you agree to be bound by these terms of use and our privacy policy. If you do not agree, please do not use our services.</p>
+            <h2>Acceptance of Terms</h2>
+            <p>By accessing or using the services offered by Dawn Badminton Club, you acknowledge that you have read, understood, and agree to be bound by these Terms of Use and our Privacy Policy. If you do not agree to these terms, please discontinue the use of our services immediately.</p>
+            <br>
+            <h2>Eligibility</h2>
+            <p>Our services are available only to individuals who are at least 18 years old or by obtaining the consent of a parent or guardian for those who are under 18 years old. By using our services, you represent and warrant that you meet this age requirement.</p>
+            <br>
+            <h2>Use of Services</h2>
+            <p>You agree to use our services solely for lawful purposes and in accordance with these terms. You are responsible for all activities conducted under your account. You agree not to:</p>
+            
+            <ul>
+              <li>&#10003; Violate any applicable law or regulation.</li>
+              <li>&#10003; Engage in any activity that could harm the Club or its members.</li>
+              <li>&#10003; Use our services for any unauthorized commercial purposes.</li>
+              <li>&#10003; Interfere with or disrupt the integrity or performance of our services.</li>
+          </ul>
 
-        <h2>Use of Services</h2>
-        <p>You agree to use our services only for lawful purposes and in accordance with these terms. You are responsible for all activity that occurs under your account.</p>
+            <br>
 
-        <h2>Intellectual Property</h2>
-        <p>All content and materials on our website and services are the property of Dawn Badminton Club and are protected by copyright, trademark, and other intellectual property laws.</p>
+            <h2>Account Security</h2>
+            <p>You are responsible for maintaining the confidentiality of your account information and for all activities that occur under your account. Notify us immediately of any unauthorized use of your account.</p>
+            
+            <br>
 
-        <h2>Limitation of Liability</h2>
-        <p>To the fullest extent permitted by law, Dawn Badminton Club is not liable for any indirect, incidental, special, or consequential damages arising out of or in connection with your use of our services.</p>
+            <h2>Intellectual Property</h2>
+            <p>All content and materials on our website and services, including but not limited to text, graphics, logos, and software, are the exclusive property of Dawn Badminton Club and are protected by copyright, trademark, and other intellectual property laws. You may not reproduce, distribute, or create derivative works from our content without express written permission.</p>
+            <br>
+            <h2>Privacy Policy</h2>
+            <p>We value your privacy. Please review our Privacy Policy to understand how we collect, use, and protect your personal information. By using our services, you consent to our collection and use of your information as described in the Privacy Policy.</p>
+            <br>
 
-        <h2>Changes to Terms</h2>
-        <p>We may update these terms of use from time to time. Any changes will be posted on this page, and your continued use of our services after such changes have been made will constitute your acceptance of the new terms.</p>
+            <h2>Limitation of Liability</h2>
+            <p>To the fullest extent permitted by Indian law, Dawn Badminton Club shall not be liable for any indirect, incidental, special, or consequential damages arising out of or in connection with your use of our services. This includes, but is not limited to, damages for loss of profits, goodwill, data, or other intangible losses.</p>
+            <br>
 
-        <h2>Contact Us</h2>
-        <p>If you have any questions about these terms of use, please contact us at:</p>
-        <p>Email: <a href="mailto:dawnerumely@gmail.com">dawnerumely@gmail.com</a></p>
-        <p>Phone: <a href="tel:+919447457017">+91 9447457017</a></p>
-      </div>
+            <h2>Indemnification</h2>
+            <p>You agree to indemnify, defend, and hold harmless Dawn Badminton Club, its officers, directors, employees, and agents from and against any and all claims, liabilities, damages, losses, or expenses, including reasonable legal fees and costs, arising out of or in any way connected with your access to or use of our services.</p>
+            <br>
+
+            <h2>Termination</h2>
+            <p>We reserve the right to terminate or suspend your access to our services at any time, without notice, for conduct that we believe violates these Terms of Use or is harmful to other users of our services, us, or third parties, or for any other reason in our sole discretion.</p>
+            <br>
+
+            <h2>Changes to Terms</h2>
+            <p>We may update these Terms of Use from time to time. Any changes will be posted on this page with the updated date. Your continued use of our services after such changes constitutes your acceptance of the new terms.</p>
+            <br>
+
+            <h2>Governing Law</h2>
+            <p>These Terms of Use are governed by and construed in accordance with the laws of India. Any disputes arising from these terms shall be subject to the exclusive jurisdiction of the courts in Kerala, India.</p>
+            <br>
+
+            <h2>Contact Us</h2>
+            <p>If you have any questions about these Terms of Use, please contact us at:</p>
+            <p>Email: <a href="mailto:dawnerumely@gmail.com">dawnerumely@gmail.com</a></p>
+            <p>Phone: <a href="tel:+919447457017">+91 9447457017</a></p>
+            <p>Address: FRRW+9C Erumeli,686509, Kerala, India</p>
+        </div>
     </section>
+</main>
+
+
+
+
+
+
+      <!-- 
+        - #CTA
+      -->
+
+      <section class="cta" aria-label="call to action">
+        <div class="container">
+
+          <h2 class="h2 section-title">
+            Join Dawn Badminton Club today for the best badminton experience in Erumely, Kerala.
+          </h2>
+          
+
+          <a href="contact.html" class="btn btn-primary">Become a member</a>
+
+        </div>
+      </section>
+
+    </article>
   </main>
 
-  <!-- Footer -->
+
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
   <footer class="footer">
-    <div class="container">
+    <div class="container grid-list">
+
       <div class="footer-brand">
+
         <a href="#" class="logo">
-          <img src="./assets/images/dawn-logo.png" alt="Dawn Badminton Club">
+          <img src="./assets/images/dawn-logo.png" width="74" height="24" alt="Adex home">
         </a>
+
+        <p class="footer-text">
+          &copy; 2024 DAWN. <br> All rights reserved.
+        </p>
+
+        <ul class="social-list">
+
+          <li>
+            <a href="https://www.facebook.com/people/DAWN-Sports-HUB-Erumely/100095416503887" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="https://maps.app.goo.gl/QuAqVKE5NU3LN2EY8" class="social-link">
+              <ion-icon name="logo-google"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="https://www.instagram.com/dawnbadminton" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
       </div>
+
       <ul class="footer-list">
-        <li class="footer-list-title">Get in Touch</li>
-        <li><address>FRRW+9C Erumeli, 686509, Kerala, India</address></li>
-        <li><a href="mailto:dawnerumely@gmail.com">dawnerumely@gmail.com</a></li>
-        <li><a href="tel:+919447457017">+91 9447457017</a></li>
+
+        <li>
+          <p class="h4 footer-list-title">Get in Touch</p>
+        </li>
+
+        <li>
+          <address class="footer-text">
+            FRRW+9C Erumeli,686509, Kerala, India
+          </address>
+        </li>
+
+        <li>
+          <a href="mailto:dawnerumely@gmail.com" class="footer-link">dawnerumely@gmail.com</a>
+        </li>
+
+        <li>
+          <a href="tel:9447457017" class="footer-link">+91 9447457017</a>
+        </li>
+
       </ul>
+
       <ul class="footer-list">
-        <li class="footer-list-title">Learn More</li>
-        <li><a href="index.html">About Us</a></li>
-        <li><a href="story.html">Our Story</a></li>
-        <li><a href="terms.html">Terms of Use</a></li>
-        <li><a href="policy.html">Privacy Policy</a></li>
+
+        <li>
+          <p class="h4 footer-list-title">Learn More</p>
+        </li>
+
+        <li>
+          <a href="#" class="footer-link">About Us</a>
+        </li>
+
+        <li>
+          <a href="#" class="footer-link">Our Story</a>
+        </li>
+
+        
+        <li>
+          <a href="terms.html" class="footer-link">Terms of Use</a>
+        </li>
+
+        <li>
+          <a href="terms.html" class="footer-link">Privacy Policy</a>
+        </li>
+
       </ul>
+
       <div class="footer-list">
-        <p class="footer-list-title">Thank You.</p>
+
+        <p class="h4 footer-list-title">Thank You.</p>
+
+        <p class="footer-text">
+          
+        </p>
+
+        
       </div>
+
     </div>
   </footer>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="assets/js/script.js"></script>
+
+  <!-- 
+    - ionicon
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
 </body>
 
 </html>
