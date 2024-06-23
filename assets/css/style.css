@@ -1155,7 +1155,7 @@ body.nav-active { overflow: hidden; }
 
 /*---------------------------Terms and policy------------------------------------------------------*/
 
-.policy, .news-section {
+.policy, .news-section, .about {
   width: 90%;
   max-width: 1200px;
   margin: 0 auto;
